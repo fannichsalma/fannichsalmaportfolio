@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/styles.css">
+
+        <title>Fannich Salma</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Fannich Salma</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Skills
+                            </a>
+                        </li>
+                          <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i>Services
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Portfolio                                
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contact                               
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="www.linkedin.com/in/salma-fannich" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                        
+                            <a href="https://github.com/fannichsalma" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x="" xlink:href="packages\images\shutterstock_326196896.jpg"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title typewriter" id="title"></h1>
+                            <h3 class="home__subtitle typewriter" id="subtitle"></h3>
+                            <p class="home__description typewriter" id="description">
+                                Data & Software Engineering Student passionate<br>
+                                about turning data into actionable insights.<br>
+                                Eager to explore new opportunities in data analysis,<br>
+                                software development, and machine learning.<br>
+                                Driven by curiosity and a commitment to innovation.<br>
+                                Ready to contribute and grow in dynamic environments.
+                            </p>
+                            
+                            <a href="#contact" class="button button--flex home__button">
+                                Contact Me<i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <script src="packages\js\script.js"></script>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My Introduction</span>
+            
+                <div class="about__container container grid">
+                    <img src="packages/images/WhatsApp Image 2024-08-27 at 14.21.52.jpeg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            Data & Software Engineering student with a strong passion for data-driven solutions and innovative software development. I thrive on learning and applying new technologies to solve real-world problems. I'm always eager to take on challenges and grow in the fields of data analysis, software engineering, and beyond.
+                        </p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">02+</span>
+                                <span class="about__info-name">Years <br> experience</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">05+</span>
+                                <span class="about__info-name">Completed <br> certifications</span>
+                            </div>
+                        </div>
+                        <div class="about__buttons">
+                            <a download="" href="packages/pdf/" class="button button--flex">
+                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+          <!--==================== SKILLS ====================-->
+<section class="skills section" id="skills">
+    <h2 class="section__title">Skills</h2>
+    <span class="section__subtitle">My technical expertise</span>
+
+    <div class="skills__container container grid">
+        <div>
+            <!--==================== SKILL-1 ====================-->
+            <div class="skills__content skills__open">
+                <div class="skills__header">
+                    <i class="uil uil-brackets-curly skills__icon"></i>
+                    <div>
+                        <h1 class="skills__title">Programming Languages</h1>
+                        <span class="skills__subtitle">Various languages I've mastered</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <h3 class="skills__name">Python</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">JAVA</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">JavaJEE</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">R</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">Matlab</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!--==================== SKILL-2 ====================-->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-database skills__icon"></i>
+                    <div>
+                        <h1 class="skills__title">Database</h1>
+                        <span class="skills__subtitle">Database technologies I work with</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <h3 class="skills__name">Oracle</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">MySQL</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">MariaDB</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">UML</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">MERISE</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">Dremio</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">SQL Server</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!--==================== SKILL-3 ====================-->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-globe skills__icon"></i>
+                    <div>
+                        <h1 class="skills__title">Web Development</h1>
+                        <span class="skills__subtitle">Technologies used in web development</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <h3 class="skills__name">HTML5</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">CSS3</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">JavaScript</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">PHP</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <!--==================== SKILL-4 ====================-->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-chart-line skills__icon"></i>
+                    <div>
+                        <h1 class="skills__title">Data Visualization</h1>
+                        <span class="skills__subtitle">Tools for data visualization</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <h3 class="skills__name">Tableau</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">Power BI</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">Excel</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!--==================== SKILL-5 ====================-->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-robot skills__icon"></i>
+                    <div>
+                        <h1 class="skills__title">Machine Learning</h1>
+                        <span class="skills__subtitle">Machine learning models</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <h3 class="skills__name">Neural Machine Translation</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">Other Models</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!--==================== SKILL-6 ====================-->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-cloud skills__icon"></i>
+                    <div>
+                        <h1 class="skills__title">Cloud</h1>
+                        <span class="skills__subtitle">Cloud computing platforms</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <h3 class="skills__name">Google Cloud Console</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">BigQuery</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">Looker</h3>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!--==================== SKILL-7 ====================-->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-server skills__icon"></i>
+                    <div>
+                        <h1 class="skills__title">Big Data</h1>
+                        <span class="skills__subtitle">Technologies for big data</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <h3 class="skills__name">Docker</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">Spark</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">Airflow</h3>
+                    </div>
+                    <div class="skills__data">
+                        <h3 class="skills__name">Kafka</h3>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--==================== SKILL-7 ====================-->
+<div class="skills__content skills__close">
+    <div class="skills__header">
+        <i class="uil uil-server skills__icon"></i>
+        <div>
+            <h1 class="skills__title">Operating Systems & Command Line</h1>
+            <span class="skills__subtitle">Shell scripting and system tools</span>
+        </div>
+        <i class="uil uil-angle-down skills__arrow"></i>
+    </div>
+    <div class="skills__list grid">
+        <div class="skills__data">
+            <h3 class="skills__name">Shell</h3>
+        </div>
+        <div class="skills__data">
+            <h3 class="skills__name">Bash</h3>
+        </div>
+        <div class="skills__data">
+            <h3 class="skills__name">Linux</h3>
+        </div>
+        <div class="skills__data">
+            <h3 class="skills__name">PowerShell</h3>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+              <!--==================== QUALIFICATION ====================-->
+        <section class="qualification__section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div class="qualification__content qualification__active" data-content id="education">
+             <!--==================== QUALIFICATION 1 ====================--> 
+             <div class="qualification__data">
+                 <div>
+                     <h3 class="qualification__title">Baccalaureate in physical science </h3>
+                     <span class="qualification__subtitle">Nador, Morocco</span>
+                     <div class="qualification__calendar">
+                        <i class="uil uil-calendar-alt"></i>
+                        2018 - 2019
+                     </div>
+                 </div>
+
+                 <div>
+                     <span class="qualification__rounder"></span>
+                     <span class="qualification__line"></span>
+                 </div>
+             </div>
+             
+             <!--==================== QUALIFICATION 2 ====================--> 
+             <div class="qualification__data">
+                <div></div>
+                <div>
+                   <span class="qualification__rounder"></span>
+                   <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                    <h3 class="qualification__title">1 st year in FSTH mip</h3>
+                    <span class="qualification__subtitle">AL Hoceima, Morocco</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2019 - 2020
+                    </div>
+                </div>
+            </div> 
+
+            <!--==================== QUALIFICATION 3 ====================--> 
+            <div class="qualification__data">
+                <div>
+                    <h3 class="qualification__title">5th year of Data Engineering at ENSAH </h3>
+                    <span class="qualification__subtitle">AL Hoceima, Morocco</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2020 - 2025
+                    </div>
+                </div>
+
+                <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                </div>
+            </div> 
+
+            
+                
+            </div>
+            </div>
+            
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content id="work">
+                <!--==================== QUALIFICATION 1 ====================--> 
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Computer Science Intern</h3>
+                        <span class="qualification__subtitle">Marjane Holding , Nador </span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           July 23 - Aug 23
+                        </div>
+                    </div>
+   
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+                
+                <!--==================== QUALIFICATION 2 ====================--> 
+                <div class="qualification__data">
+                   <div></div>
+                   <div>
+                      <span class="qualification__rounder"></span>
+                      <span class="qualification__line"></span>
+                   </div>
+   
+                   <div>
+                       <h3 class="qualification__title">Data Analyst Intern</h3>
+                       <span class="qualification__subtitle">Marchica Med - Nador</span>
+                       <div class="qualification__calendar">
+                          <i class="uil uil-calendar-alt"></i>
+                          Aug 23 - Sep 23
+                       </div>
+                   </div>
+               </div> 
+   
+               <!--==================== QUALIFICATION 3 ====================--> 
+               <div class="qualification__data">
+                   <div>
+                       <h3 class="qualification__title">Web Application Development and Data Integration Intern</h3>
+                       <span class="qualification__subtitle">Nador West Med (SGTM - STFA) - Nador</span>
+                       <div class="qualification__calendar">
+                          <i class="uil uil-calendar-alt"></i>
+                          July 24 - Sep 24
+                       </div>
+                   </div>
+   
+                   <div>
+                       <span class="qualification__rounder"></span>
+                       <!-- <span class="qualification__line"></span> -->
+                   </div>
+               </div> 
+          
+               </div> 
+             
+               </div>
+            </div>
+        </section>
+      
+        <!--==================== SERVICES ====================-->
+<section class="services section" id="services">
+    <h2 class="section__title">Services</h2>
+    <span class="section__subtitle">What I offer</span>
+
+    <div class="services__container container grid">
+        <!--==================== SERVICE 1: Data Engineering ====================-->
+        <div class="services__content">
+            <div>
+                <i class="uil uil-database services__icon"></i>
+                <h3 class="services__title">Data Engineering<br></h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View more
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <h4 class="services__modal-title">Data Engineering<br></h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Building and optimizing data pipelines.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Designing, implementing, and maintaining databases (Oracle, MySQL, SQL Server).</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Implementing big data solutions with Spark, Airflow, and Kafka.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Data integration and transformation using Dremio and other ETL tools.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!--==================== SERVICE 3: Cloud Computing ====================-->
+<div class="services__content">
+    <div>
+        <i class="uil uil-cloud services__icon"></i>
+        <h3 class="services__title">Cloud Computing<br>with GCP</h3>
+    </div>
+    <span class="button button--flex button--small button--link services__button">
+        View more
+        <i class="uil uil-arrow-right button__icon"></i>
+    </span>
+
+    <div class="services__modal">
+        <div class="services__modal-content">
+            <h4 class="services__modal-title">Cloud Computing<br>with GCP</h4>
+            <i class="uil uil-times services__modal-close"></i>
+
+            <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Expertise in Google Cloud Platform (GCP) services and tools.</p>
+                </li>
+
+                <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Data management and analysis using BigQuery.</p>
+                </li>
+
+                <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Building data-driven dashboards and reports with Looker.</p>
+                </li>
+
+                <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Integrating data workflows with GCP for scalable cloud solutions.</p>
+                </li>
+
+                <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Optimizing cloud infrastructure for data storage and processing.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <!--==================== SERVICE 2: Machine Learning ====================-->
+        <div class="services__content">
+            <div>
+                <i class="uil uil-robot services__icon"></i>
+                <h3 class="services__title">Machine Learning<br></h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View more
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <h4 class="services__modal-title">Machine Learning<br></h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Developing and deploying machine learning models.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Specializing in neural machine translation and other advanced ML models.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Data preprocessing and feature engineering.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Integrating ML models with cloud platforms like Google Cloud Console.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--==================== SERVICE 3: Web Development ====================-->
+        <div class="services__content">
+            <div>
+                <i class="uil uil-globe services__icon"></i>
+                <h3 class="services__title">Web Development<br></h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View more
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <h4 class="services__modal-title">Web Development<br></h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Creating responsive and dynamic web applications using HTML5, CSS3, JavaScript, and PHP.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Developing user-friendly interfaces and UX elements.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Integrating backend databases with web applications.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Deploying and managing websites on cloud platforms.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent works</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+        <!--==================== PORTFOLIO 1 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Amazon Personalized Recommendation System</h3>
+                    <p class="portfolio__description">This project creates a live product recommender system using the Amazon dataset. 
+                        It involves data processing with Apache Spark, MongoDB, and exploratory analysis. 
+                        A recommendation model (ALS) is trained and integrated into a Flask web application, 
+                        with real-time updates via Apache Kafka.</p>
+                        <a href="https://github.com/fannichsalma/Amazon-Recommendation-System/tree/main" class="button button--flex button--small portfolio__button" target="_blank" rel="noopener noreferrer">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                        
+                </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio3.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Movie Review sentiment analysis and Recommandation System</h3>
+                    <p class="portfolio__description">The project is based on developing a versatile system that combines sentiment analysis and recommendation,
+                         with a user-friendly interface. The main objective is to enable users to explore and benefit from a personalized contextual experience.
+                         In this context, sentiment analysis aims to evaluate user comments on films, classifying them into categories such as positive, negative, or neutral. .</p>
+                         <a href="https://lnkd.in/eHyuKQ3u" class="button button--flex button--small portfolio__button" target="_blank">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                        
+                </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio2.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Patent Drone Website</h3>
+                    <p class="portfolio__description">I automated data extraction from Google Patents using Selenium and stored it in MongoDB for efficient management. Apache Spark was used for in-depth analysis, uncovering key trends, which were visualized through Power BI dashboards. I also built a user-friendly website with HTML, CSS, JavaScript, and Flask to enable easy interaction with the data and visualizations.</p>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7203405905869094913/" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio4.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Exam Management</h3>
+                    <p class="portfolio__description">Developed an Exam Management System using Java EE to optimize exam administration.
+                         The system features functionalities for scheduling exams, managing classroom reservations, and overseeing exam logistics. 
+                        The application facilitates efficient exam management</p>
+                    <a href="https://github.com/fannichsalma/Exam-management/tree/main" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio5.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Style Transfer Using DL</h3>
+                    <p class="portfolio__description">Developed a style transfer application using VGG16/VGG19, leveraging convolutional neural networks to merge artistic styles with content images. This approach utilizes pre-trained VGG models to extract and apply distinct visual styles from artwork to user-provided images, creating high-quality, stylized visuals. The system harnesses the power of VGG16/VGG19 to generate compelling and realistic transformations by training the model to understand and replicate intricate style features while preserving the essence of the content image.
+                    </p>
+                    <a href="https://github.com/fannichsalma/Style-Transfer/tree/master" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio6.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Student Management App</h3>
+                    <p class="portfolio__description">Developed a comprehensive Student Management System using Python's Tkinter library, featuring a user-friendly interface with sections for the homepage, contact information, course listings, faculty profiles, and a secure login/registration system. Implemented a robust login and registration system, and created a dedicated student services page with features for viewing course schedules, accessing digital student ID cards, and staying updated on campus activities and events.</p>
+                    <a href="https://github.com/fannichsalma/Student-Managment-Tkinter" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                    
+                </div>
+            </div>
+            
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio7.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Xou Dou Qi Chinese Chess game</h3>
+                    <p class="portfolio__description">Designed and implemented the Xou Dou Qi Chinese Chess game in Java to enhance object-oriented programming skills. Developed a compelling gaming experience with network multiplayer and AI opponents. Integrated network connectivity for players to compete over Wi-Fi or a network, and used basic Min-Max algorithms for AI opponents, allowing single-player mode. Offered multiplayer options including player vs. player and player vs. machine modes, demonstrating problem-solving skills in creating a strategic board game with network synchronization and AI gameplay.</p>
+                
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio8.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">ETL in SQL Server</h3>
+                    <p class="portfolio__description">Developed an ETL (Extract, Transform, Load) process using Microsoft SQL Server. Designed and implemented data extraction from various sources, transformation to meet business requirements, and loading into a target database. Ensured data accuracy and efficiency through optimized SQL queries and automated workflows.</p>
+                    <a href="https://www.canva.com/design/DAGEoGuQrBk/FQixE_U8GBAb5_GZC_Sy_Q/view?utm_content=DAGEoGuQrBk&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="button button--flex button--small portfolio__button" target="_blank" rel="noopener noreferrer">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                    
+                </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/portfolio9.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">ID1FS File System</h3>
+                    <p class="portfolio__description">ID1FS is a project designed to create a file system under Linux for managing files in a Windows environment. It provides a seamless interface for handling Windows files and directories on a Linux system, enabling compatibility and efficient file management across different operating systems. The project focuses on ensuring smooth integration and interoperability between Linux and Windows file systems.</p>
+                    <a href="https://www.studocu.com/row/document/universite-mohammed-v-de-rabat/tourisme-valorisation-des-territoires-et-des-patrimoines/id1fs-rapport-2/44432896" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+                </div>
+            
+            <!-- add arrows-->
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            
+        
+        </div>
+
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project?</h2>
+                        <p class="project__description">Contact me now and get discounts on your projects.</p>
+                        <a href="#contact" class="button button--flex button--white">Contact me
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                       
+                    </div>
+                    <!-- <img src="assets/img/project.png" alt="" class="project__img"> -->
+                </div>
+            </div>
+
+        </section>
+
+        
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Discuss with me</h3>
+                            <span class="contatc__subtitle">linkedin</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contatc__subtitle">salma.fannich123@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contatc__subtitle">Nador, Morocco</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">E-mail</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Subject</label>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Description</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Fannich Salma</h1>
+                    <span class="footer__subtitle">Data & Software Engineering Student</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="www.linkedin.com/in/salma-fannich" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    
+                    <a href="https://github.com/fannichsalma" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">2024; Fannich Salma. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./packages/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+</body>
+
+</html>
